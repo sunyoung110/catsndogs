@@ -25,4 +25,5 @@ train_datagen = ImageDataGenerator(rescale = 1.0/255.,
 - shear_range : 전단 변환을 위한 파라미터 , 이미지를 어긋나 보이도록 변환 
 - zoom_range : 이미지를 임의로 확대하는 정도 
 - horizontal_flip : 이미지를 임의로 뒤집을지 여부를 결정
-- fill_mode  : 회전 또는 이동 변환 후 빈 픽셀을 채우는 방식 지정. 디폴트 : ne
+- fill_mode  : 회전 또는 이동 변환 후 빈 픽셀을 채우는 방식 지정. 디폴트 : nearest
+
