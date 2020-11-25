@@ -10,7 +10,7 @@
 
 
 1. 이미지 데이터 전처리 하기 
-# train_datagen = ImageDataGenerator(rescale = 1.0/255.)
+
 train_datagen = ImageDataGenerator(rescale = 1.0/255.,
                                  rotation_range=40,
                                  width_shift_range=0.2,
